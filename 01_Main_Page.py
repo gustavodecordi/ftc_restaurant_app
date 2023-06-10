@@ -45,7 +45,7 @@ def create_map(dataframe):
     folium_static(m, width=1024, height=768)
     
 def build_sidebar( df ):
-    st.sidebar.markdown('## Fome Zero!')
+    st.sidebar.markdown('## App Company')
     
     image_path = './img/'
     image = Image.open(image_path + 'logo.png')
@@ -83,7 +83,7 @@ def main():
     
     st.markdown(
                 """
-                    ## Fome Zero!
+                    ## App Company
                     ### O Melhor lugar para encontrar seu mais novo restaurante favorito!
                     ##### Temos as seguintes visões dentro da nossa plataforma:
                     - Visão Países:
